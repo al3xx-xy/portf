@@ -107,7 +107,7 @@ function App() {
           {/* Placeholder for masked person image */}
           <div className="w-48 h-56 sm:w-60 sm:h-72 md:w-72 md:h-80 bg-gray-700 rounded-lg flex items-center justify-center z-10 overflow-hidden">
             <img
-              src="/main-photo.png"
+              src="../public/main-photo.png"
               alt="Main"
               className="object-cover w-full h-full"
             />
