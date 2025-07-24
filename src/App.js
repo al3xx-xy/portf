@@ -107,7 +107,7 @@ function App() {
           {/* Placeholder for masked person image */}
           <div className="w-48 h-56 sm:w-60 sm:h-72 md:w-72 md:h-80 bg-gray-700 rounded-lg flex items-center justify-center z-10 overflow-hidden">
             <img
-              src="../public/main-photo.png"
+              src={process.env.PUBLIC_URL + "/main-photo.png"}
               alt="Main"
               className="object-cover w-full h-full"
             />
@@ -314,7 +314,7 @@ function App() {
           {/* Placeholder for about-me image */}
           <div className="w-56 h-64 sm:w-72 sm:h-80 md:w-80 md:h-96 bg-gray-800 rounded-lg flex items-center justify-center overflow-hidden z-10">
             <img
-              src="/main-photo-2.png"
+              src={process.env.PUBLIC_URL + "/main-photo-2.png"}
               alt="About Me"
               className="object-cover w-full h-full"
             />
