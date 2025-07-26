@@ -24,7 +24,7 @@ function MobileSidebar({ open, onClose, active }) {
       <div className="flex items-center justify-between px-5 pt-5 pb-8">
         <span className="font-mono font-bold text-lg text-white flex items-center">
           <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M4 4h16v16H4z" /></svg>
-          Elias
+          Alex
         </span>
         <button onClick={onClose} aria-label="Close sidebar">
           <svg className="w-7 h-7 text-gray-400" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24"><path d="M6 18L18 6M6 6l12 12" /></svg>
